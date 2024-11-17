@@ -1,0 +1,70 @@
+* {
+    font-family:'Courier New', Courier, monospace;
+}
+.all-content {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.search-result {
+    width: auto;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.addToCart {
+    background-color: lightgreen;
+    font-weight: 800;
+    border-radius: 20px;
+    width: 120px;
+    height: 36px;
+}
+.cart {
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+    min-width: auto;
+
+}
+
+.item-view {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.check {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.5s;
+    font-family: "Nanum Gothic Coding", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.checkBorder {
+    padding: 20px;
+    border: 1px dotted gray;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    transition: 1s;
+    font-family: "Nanum Gothic Coding", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-image: url('https://www.clipartmax.com/png/small/269-2695850_cat-icon-cat-icon-png.png');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: bottom;
+    background-size: 30px;
+}
